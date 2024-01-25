@@ -64,6 +64,11 @@ body {
     color: var(--black-color);
 }
 
+.header-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .nav-link {
     color: var(--secondary-title-color);
     font-size: 14px;
