@@ -29,6 +29,13 @@ body {
     padding-right: 15px;
     outline: 2px solid tomato;
 }
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .link {
     text-decoration: none;
     color: currentColor;
@@ -64,12 +71,28 @@ body {
     color: var(--black-color);
 }
 
+.nav-list,
+.contacts-list {
+    display: flex;
+}
+
+.header-item + .header-item {
+    margin-left: 50px;
+}
+
 .header-item {
-    padding-top: 32px;
-    padding-bottom: 32px;
+
+}
+
+.header-item:hover {
+    color: var(--akcent-color);
 }
 
 .nav-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     color: var(--secondary-title-color);
     font-size: 14px;
     font-weight: 500;
@@ -87,6 +110,10 @@ body {
 }
 
 .contacts-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     color: var(--text-color);
     font-family: inherit;
     font-size: 14px;
@@ -100,6 +127,9 @@ body {
     color: var(--akcent-color);
 }
 
+.contacts-item + .contacts-item {
+    margin-left: 40px;
+}
 .hero {
     background-color: var(--dark-bg-color);
     text-align: center;
