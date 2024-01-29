@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -36,26 +36,26 @@
             <button class="hero-btn" type="button">Замовити послугу</button>
             </div>
         </section>
-<!--Feaches-->
-        <section class="feaches section">
+<!--Features-->
+        <section class="features section">
             <div class="container">
-                <h2 class="feaches-title visually-hidden">ПЕРЕВАГИ</h2>
-                <ul class="feaches-list list feaches-flex">
-                    <li class="feaches-item">
-                        <h3 class="feaches-item-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                        <p class="feaches-item-description">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                <h2 class="features-title visually-hidden">ПЕРЕВАГИ</h2>
+                <ul class="features-list list features-flex">
+                    <li class="features-item">
+                        <h3 class="features-item-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p class="features-item-description">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                     </li>
-                    <li class="feaches-item">
-                        <h3 class="feaches-item-title">ПУНКТУАЛЬНІСТЬ</h3>
-                        <p class="feaches-item-description">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    <li class="features-item">
+                        <h3 class="features-item-title">ПУНКТУАЛЬНІСТЬ</h3>
+                        <p class="features-item-description">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                     </li>
-                    <li class="feaches-item">
-                        <h3 class="feaches-item-title">ПЛАНУВАННЯ</h3>
-                        <p class="feaches-item-description">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <li class="features-item">
+                        <h3 class="features-item-title">ПЛАНУВАННЯ</h3>
+                        <p class="features-item-description">Так само консультація з широким активом значною мірою зумовлює.</p>
                     </li>
-                    <li class="feaches-item">
-                        <h3 class="feaches-item-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                        <p class="feaches-item-description">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <li class="features-item">
+                        <h3 class="features-item-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p class="features-item-description">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                     </li>
                 </ul>
             </div>
@@ -65,9 +65,9 @@
             <div class="container">
             <h2 class="ourwork-title">Чим ми займаємося</h2>
             <ul class="ourwork-list list">
-                <li><img src="./images/box-1.jpg" alt="розробка сайтів" width="370" height="294"></li>
-                <li><img src="./images/box-2.jpg" alt="розробка додатків" width="370" height="294"></li>
-                <li><img src="./images/box-3.jpg" alt="послуги дизайнера" width="370" height="294"></li>
+                <li class="ourwork-item"><img class="ourwork-img" src="./images/box-1.jpg" alt="розробка сайтів" width="370" height="294"></li>
+                <li class="ourwork-item"><img class="ourwork-img" src="./images/box-2.jpg" alt="розробка додатків" width="370" height="294"></li>
+                <li class="ourwork-item"><img class="ourwork-img" src="./images/box-3.jpg" alt="послуги дизайнера" width="370" height="294"></li>
             </ul>
             </div>
         </section>
@@ -78,23 +78,31 @@
             <ul class="team-list list team-flex">
                 <li class="team-item">
                     <img class="team-img" src="images/spec-1.jpg" alt="Product Designer" width="270" height="260">
-                    <h3 class="specialist">Ігор Дем'яненко</h3>
-                    <p class="position">Product Designer</p>
+                    <div class="team-discription">
+                        <h3 class="specialist">Ігор Дем'яненко</h3>
+                        <p class="position">Product Designer</p>
+                    </div>
                 </li>
                 <li class="team-item">
                     <img class="team-img" src="images/spec-2.jpg" alt="Frontend Developer" width="270" height="260">
-                    <h3 class="specialist">Ольга Рєпіна</h3>
-                    <p class="position">Frontend Developer</p>
+                    <div class="team-discription">
+                        <h3 class="specialist">Ольга Рєпіна</h3>
+                        <p class="position">Frontend Developer</p>
+                    </div>
                 </li>
                 <li class="team-item">
                     <img class="team-img" src="images/spec-3.jpg" alt="Marketing" width="270" height="260">
-                    <h3 class="specialist">Микола Тарасов</h3>
-                    <p class="position">Marketing</p>
+                    <div class="team-discription">
+                        <h3 class="specialist">Микола Тарасов</h3>
+                        <p class="position">Marketing</p>
+                    </div>
                 </li>
                 <li class="team-item">
                     <img class="team-img" src="images/spec-4.jpg" alt="UI Designer" width="270" height="260">
-                    <h3 class="specialist">Михайло Єрмаков</h3>
-                    <p class="position">UI Designer</p>
+                    <div class="team-discription">
+                        <h3 class="specialist">Михайло Єрмаков</h3>
+                        <p class="position">UI Designer</p>
+                    </div>
                 </li>
             </ul>
             </div>
