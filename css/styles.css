@@ -154,12 +154,12 @@ body {
 }
 
 .hero-title {
-    margin-top: 200;
-    margin-top: 0;
+    display: block;
+    margin: 0;
     margin-bottom: 30px;
-    padding: 0 252px;
+    padding-left: 200px;
+    padding-right: 200px;
     color: var(--first-title-color);
-    text-align: center;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
@@ -172,7 +172,6 @@ body {
     color: var(--white-color);
     font-family: inherit;
     background-color: var(--akcent-color);
-    text-align: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.87;
@@ -240,7 +239,7 @@ body {
 }
 
 .ourwork-title {
-    margin-top: 0;
+    margin: 0;
     margin-bottom: 50px;
     color: var(--secondary-title-color);
     text-align: center;
@@ -281,7 +280,7 @@ body {
 }
 
 .team-title {
-    margin-top: 0;
+    margin: 0;
     margin-bottom: 50px;
     color: var(--secondary-title-color);
     text-align: center;
@@ -312,7 +311,6 @@ body {
 }
 
 .position {
-    margin-top: 0;
     color: var(--text-color);
     text-align: center;
     font-size: 16px;
