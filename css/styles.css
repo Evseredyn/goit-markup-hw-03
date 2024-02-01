@@ -154,11 +154,9 @@ body {
 }
 
 .hero-title {
-    display: block;
-    margin: 0;
+    margin: 0 auto;
+    width: 700px;
     margin-bottom: 30px;
-    padding-left: 200px;
-    padding-right: 200px;
     color: var(--first-title-color);
     font-size: 44px;
     font-weight: 900;
@@ -167,6 +165,11 @@ body {
     text-transform: uppercase;
 }
 
+.test {
+    width: 700px;
+    margin: 0;
+    color: #EEEEEE;
+}
 .hero-btn {
     display: inline-block;
     color: var(--white-color);
@@ -311,6 +314,7 @@ body {
 }
 
 .position {
+    margin: 0;
     color: var(--text-color);
     text-align: center;
     font-size: 16px;
